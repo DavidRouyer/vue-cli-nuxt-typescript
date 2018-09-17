@@ -22,3 +22,9 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw*
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist

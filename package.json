@@ -7,9 +7,15 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
-    "test:e2e": "vue-cli-service test:e2e"
+    "test:e2e": "vue-cli-service test:e2e",
+    "dev": "nuxt",
+    "start": "nuxt start",
+    "generate": "nuxt-generate"
   },
   "dependencies": {
+    "nuxt-class-component": "^1.2.1",
+    "nuxt-edge": "latest",
+    "nuxt-property-decorator": "^1.2.0",
     "register-service-worker": "^1.0.0",
     "vue": "^2.5.17",
     "vue-class-component": "^6.0.0",
