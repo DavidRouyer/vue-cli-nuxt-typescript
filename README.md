@@ -1,4 +1,4 @@
-# vue-storefront-vnuxt
+# vue-cli-3-nuxt-typescript
 
 ## Project setup
 ```

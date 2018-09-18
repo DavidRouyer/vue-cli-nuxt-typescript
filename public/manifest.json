@@ -1,6 +1,6 @@
 {
-  "name": "vue-storefront-vnuxt",
-  "short_name": "vue-storefront-vnuxt",
+  "name": "vue-cli-3-nuxt-typescript",
+  "short_name": "vue-cli-3-nuxt-typescript",
   "icons": [
     {
       "src": "/img/icons/android-chrome-192x192.png",
