@@ -3,14 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt-generate",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
-    "test:e2e": "vue-cli-service test:e2e",
-    "dev": "nuxt",
-    "start": "nuxt start",
-    "generate": "nuxt-generate"
+    "test:e2e": "nuxt | vue-cli-service test:e2e --url http://localhost:3000"
   },
   "dependencies": {
     "nuxt-class-component": "^1.2.1",
