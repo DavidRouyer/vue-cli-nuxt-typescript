@@ -1,4 +1,4 @@
-module.exports = {
+const config = {
   /*
    ** Set source directory
    */
@@ -18,17 +18,10 @@ module.exports = {
       { rel: "manifest", href: "/manifest.json" }
     ]
   },
-  modules: ["~/modules/nuxt-typescript"],
   /*
    ** Customize the progress bar color
    */
-  loading: { color: "#3B8070" },
-  /*
-   ** Build configuration
-   */
-  build: {
-    babel: {
-      presets: ["@vue/app"]
-    }
-  }
+  loading: { color: "#3B8070" }
 };
+
+export default config
