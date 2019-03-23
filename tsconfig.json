@@ -1,5 +1,4 @@
 {
-  "extends": "@nuxt/typescript",
   "compilerOptions": {
     "noImplicitAny": true,
     "types": [
@@ -11,7 +10,24 @@
     "paths": {
       "@/*": [
         "src/*"
+      ],
+      "~/*": [
+        "./*"
       ]
-    }
+    },
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": [
+      "esnext",
+      "esnext.asynciterable",
+      "dom"
+    ],
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "strict": true,
+    "noEmit": true
   }
 }
