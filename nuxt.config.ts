@@ -21,7 +21,10 @@ const config = {
   /*
    ** Customize the progress bar color
    */
-  loading: { color: "#3B8070" }
+  loading: { color: "#3B8070" },
+  build: {
+    postcss: {}
+  }
 };
 
 export default config
