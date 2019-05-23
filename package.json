@@ -12,14 +12,13 @@
     "test:e2e": "nuxt | vue-cli-service test:e2e --url http://localhost:3000"
   },
   "dependencies": {
-    "nuxt": "^2.6.3",
+    "nuxt": "^2.7.1",
     "register-service-worker": "^1.6.2",
     "ts-node": "^8.1.0",
-    "vue-property-decorator": "^8.0.0",
-    "vuex": "^3.1.0"
+    "vue-property-decorator": "^8.0.0"
   },
   "devDependencies": {
-    "@nuxt/typescript": "^2.6.3",
+    "@nuxt/typescript": "^2.7.1",
     "@types/jest": "^23.1.4",
     "@vue/cli-plugin-babel": "^3.7.0",
     "@vue/cli-plugin-e2e-cypress": "^3.7.0",
@@ -33,8 +32,8 @@
     "babel-core": "7.0.0-bridge.0",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.2.2",
-    "lint-staged": "^8.1.5",
-    "node-sass": "^4.11.0",
+    "lint-staged": "^8.1.7",
+    "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0",
     "ts-jest": "^23.0.0",
     "typescript": "^3.4.5"
