@@ -20,7 +20,7 @@
   "devDependencies": {
     "@nuxt/typescript": "^2.7.1",
     "@types/jest": "^23.1.4",
-    "@vue/cli-plugin-babel": "^3.7.0",
+    "@vue/cli-plugin-babel": "^3.8.0",
     "@vue/cli-plugin-e2e-cypress": "^3.7.0",
     "@vue/cli-plugin-eslint": "^3.7.0",
     "@vue/cli-plugin-typescript": "^3.7.0",
