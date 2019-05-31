@@ -1504,12 +1504,12 @@
     babel-loader "^8.0.5"
     webpack ">=4 < 4.29"
 
-"@vue/cli-plugin-e2e-cypress@^3.7.0":
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-e2e-cypress/-/cli-plugin-e2e-cypress-3.7.0.tgz#10000265599214de11fa9db4780564560d52fb94"
-  integrity sha512-zsGQfvEKGsdoJSPutAhWKjo5BTWGLds6CmrRWjEHDFYZBx2E0x+m908VLjO01LX43SoL7sJM1cjKTgdDWri72A==
+"@vue/cli-plugin-e2e-cypress@^3.8.0":
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-e2e-cypress/-/cli-plugin-e2e-cypress-3.8.0.tgz#444663511c05a0ad81ca2272c2a9b4d0b1684126"
+  integrity sha512-k9vgkcj4DuAFsmO56+HHJ45iLvAtvop0n/gjNTAUyKmUkDszwO/b7tnB7XIPoAsU5AxFLaL8rn88Vx7kye/tPw==
   dependencies:
-    "@vue/cli-shared-utils" "^3.7.0"
+    "@vue/cli-shared-utils" "^3.8.0"
     cypress "^3.2.0"
     eslint-plugin-cypress "^2.2.1"
 
