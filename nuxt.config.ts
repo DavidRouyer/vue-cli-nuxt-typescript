@@ -22,8 +22,12 @@ const config = {
    ** Customize the progress bar color
    */
   loading: { color: "#3B8070" },
+  buildModules: ['@nuxt/typescript-build'],
   build: {
     postcss: {}
+  },
+  typescript: {
+    typeCheck: true
   }
 };
 
