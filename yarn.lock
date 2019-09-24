@@ -1025,6 +1025,26 @@
     "@types/webpack-dev-middleware" "^2.0.3"
     "@types/webpack-hot-middleware" "^2.16.5"
 
+"@nuxt/types@0.2.15":
+  version "0.2.15"
+  resolved "https://registry.yarnpkg.com/@nuxt/types/-/types-0.2.15.tgz#749fb56bfb7482068dab16f97e7b890a5e98f3f6"
+  integrity sha512-yf4zNUFsgdcZBGuRYrASn6jMClzkzVR4uA/RILzpoV4MzTN1w0N1Og40+e+Er3YPax1m2/hOs4fyGs2n6iTFYw==
+  dependencies:
+    "@types/babel__core" "^7.1.3"
+    "@types/compression" "^1.0.1"
+    "@types/connect" "^3.4.32"
+    "@types/etag" "^1.8.0"
+    "@types/express" "^4.17.1"
+    "@types/html-minifier" "^3.5.3"
+    "@types/node" "^12.7.5"
+    "@types/optimize-css-assets-webpack-plugin" "^5.0.0"
+    "@types/serve-static" "^1.13.3"
+    "@types/terser-webpack-plugin" "^1.2.1"
+    "@types/webpack" "^4.39.1"
+    "@types/webpack-bundle-analyzer" "^2.13.3"
+    "@types/webpack-dev-middleware" "^2.0.3"
+    "@types/webpack-hot-middleware" "^2.16.5"
+
 "@nuxt/typescript-build@^0.2.9":
   version "0.2.9"
   resolved "https://registry.yarnpkg.com/@nuxt/typescript-build/-/typescript-build-0.2.9.tgz#90f2dfc499cd1228597752081ccaa6016a0c29e3"
@@ -1036,11 +1056,12 @@
     ts-loader "^6.1.0"
     typescript "~3.6"
 
-"@nuxt/typescript-runtime@^0.1.6":
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/@nuxt/typescript-runtime/-/typescript-runtime-0.1.6.tgz#fcc57ed49d359d58b2d99de9876367241ff298ca"
-  integrity sha512-hKjWDmhXgyEnRKJYS5sDxoXgSvBNxJ/9PPcWTOOghIfeh0heb/dn+Lpm9MCdfYtZGu4HnFqDb5MV5qfqVnVG3g==
+"@nuxt/typescript-runtime@^0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@nuxt/typescript-runtime/-/typescript-runtime-0.1.7.tgz#1c28f9c0c1653f1f501318ea5df9fdd674ccc1d7"
+  integrity sha512-3/IMEsS7KHLFqSMUfBDNXxyiTQlMAhsByQCLnIkHiM9dZmygxA+qgjVbYGO5EXtF7QijoVQtJI1A5MnvPI045A==
   dependencies:
+    "@nuxt/types" "0.2.15"
     ts-node "^8.4.1"
     typescript "~3.6"
 
@@ -1388,6 +1409,13 @@
   version "2.13.2"
   resolved "https://registry.yarnpkg.com/@types/webpack-bundle-analyzer/-/webpack-bundle-analyzer-2.13.2.tgz#d5183ae083b29b8cd0dc7352eaf008ed220c13d9"
   integrity sha512-DcTExvdZusgPRVL3cbqdiqyo8YNYxDqMctymmBZ0dgjRnu6PpAJ494q6mKtCOwT9GRWqPZBm52Y9JbQo7NVzXg==
+  dependencies:
+    "@types/webpack" "*"
+
+"@types/webpack-bundle-analyzer@^2.13.3":
+  version "2.13.3"
+  resolved "https://registry.yarnpkg.com/@types/webpack-bundle-analyzer/-/webpack-bundle-analyzer-2.13.3.tgz#820c8f734e171f081cbf02d889b9cda687cc89dd"
+  integrity sha512-p8EXyKfq311FFFfRuAR9tOHFFTQ9DqGrjRQYXbjjEMfl9pKGaTtRy1zFJtPMyZHfRoqh5rsYPVSVknkl004M7A==
   dependencies:
     "@types/webpack" "*"
 
