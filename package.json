@@ -12,7 +12,7 @@
     "test:e2e": "nuxt-ts | vue-cli-service test:e2e --url http://localhost:3000"
   },
   "dependencies": {
-    "@nuxt/typescript-runtime": "^0.2.0",
+    "@nuxt/typescript-runtime": "^0.2.3",
     "nuxt": "^2.10.0",
     "register-service-worker": "^1.6.2",
     "ts-node": "^8.4.1",
