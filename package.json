@@ -19,7 +19,7 @@
     "vue-property-decorator": "^8.0.0"
   },
   "devDependencies": {
-    "@nuxt/typescript-build": "^0.3.0",
+    "@nuxt/typescript-build": "^0.3.3",
     "@types/jest": "^23.1.4",
     "@vue/cli-plugin-babel": "^3.11.0",
     "@vue/cli-plugin-e2e-cypress": "^3.11.0",
