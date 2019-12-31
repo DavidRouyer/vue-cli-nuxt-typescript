@@ -38,7 +38,7 @@
     "lint-staged": "^9.5.0",
     "node-sass": "^4.13.0",
     "sass-loader": "^8.0.0",
-    "typescript": "^3.7.3"
+    "typescript": "^3.7.4"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
