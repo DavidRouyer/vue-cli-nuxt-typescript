@@ -37,7 +37,7 @@
     "eslint-plugin-vue": "^6.1.2",
     "lint-staged": "^9.5.0",
     "node-sass": "^4.13.0",
-    "sass-loader": "^8.0.1",
+    "sass-loader": "^8.0.2",
     "typescript": "^3.7.4"
   },
   "gitHooks": {
