@@ -1185,30 +1185,6 @@
     serve-static "^1.14.1"
     server-destroy "^1.0.1"
 
-"@nuxt/types@0.7.1":
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/@nuxt/types/-/types-0.7.1.tgz#356ca820f8286951661a2d8252d17a4487f18e5b"
-  integrity sha512-xpdUBxFGnODwhMLHw+bkTKWHZwD0BuiLT/N/sijQqdtWtAlrrbIBdZ8R0gLwYoC1bZNCv2T/f7TKFnDA7i3f8g==
-  dependencies:
-    "@types/autoprefixer" "^9.7.2"
-    "@types/babel__core" "^7.1.7"
-    "@types/compression" "^1.7.0"
-    "@types/connect" "^3.4.33"
-    "@types/etag" "^1.8.0"
-    "@types/file-loader" "^4.2.0"
-    "@types/html-minifier" "^3.5.3"
-    "@types/less" "^3.0.1"
-    "@types/node" "^12.12.34"
-    "@types/node-sass" "^4.11.0"
-    "@types/optimize-css-assets-webpack-plugin" "^5.0.1"
-    "@types/pug" "^2.0.4"
-    "@types/serve-static" "^1.13.3"
-    "@types/terser-webpack-plugin" "^2.2.0"
-    "@types/webpack" "^4.41.10"
-    "@types/webpack-bundle-analyzer" "^2.13.3"
-    "@types/webpack-dev-middleware" "^3.7.0"
-    "@types/webpack-hot-middleware" "^2.25.0"
-
 "@nuxt/types@0.7.3":
   version "0.7.3"
   resolved "https://registry.yarnpkg.com/@nuxt/types/-/types-0.7.3.tgz#f5f6fa2eda38688ae183a0718d69f645fe675747"
@@ -1244,13 +1220,13 @@
     ts-loader "^6.2.2"
     typescript "~3.8"
 
-"@nuxt/typescript-runtime@^0.4.2":
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/@nuxt/typescript-runtime/-/typescript-runtime-0.4.2.tgz#57ba5808fcfe18c6d2b6d33f24b3a5687fd8fc1e"
-  integrity sha512-NqVwV3ep5LHMYK85s41Y4N/9IKMym47yEXq/K2wSU+HslOPjxiEz9ce0rEjY2mGjwavhjj2wONpYnbUpCPSzxA==
+"@nuxt/typescript-runtime@^0.4.4":
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/@nuxt/typescript-runtime/-/typescript-runtime-0.4.4.tgz#5109074d82b3176e6b28522a796a87d93074641c"
+  integrity sha512-24uQsG5JF+eS4mYSTNzHx7NHF4RypQvU6m9+Kxo9LkgIwB48wIT0PwYhXrx70QqOwythGHJVy7tjrEMWIazapA==
   dependencies:
-    "@nuxt/types" "0.7.1"
-    ts-node "^8.8.1"
+    "@nuxt/types" "0.7.3"
+    ts-node "^8.8.2"
     typescript "~3.8"
 
 "@nuxt/utils@2.12.2":
@@ -1583,11 +1559,6 @@
   version "13.11.0"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-13.11.0.tgz#390ea202539c61c8fa6ba4428b57e05bc36dc47b"
   integrity sha512-uM4mnmsIIPK/yeO+42F2RQhGUIs39K2RFmugcJANppXe6J1nvH87PvzPZYpza7Xhhs8Yn9yIAVdLZ84z61+0xQ==
-
-"@types/node@^12.12.34":
-  version "12.12.34"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.34.tgz#0a5d6ae5d22612f0cf5f10320e1fc5d2a745dcb8"
-  integrity sha512-BneGN0J9ke24lBRn44hVHNeDlrXRYF+VRp0HbSUNnEZahXGAysHZIqnf/hER6aabdBgzM4YOV4jrR8gj4Zfi0g==
 
 "@types/node@^12.12.35":
   version "12.12.35"
@@ -11721,7 +11692,7 @@ ts-loader@^6.2.2:
     micromatch "^4.0.0"
     semver "^6.0.0"
 
-ts-node@^8.8.1, ts-node@^8.8.2:
+ts-node@^8.8.2:
   version "8.8.2"
   resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-8.8.2.tgz#0b39e690bee39ea5111513a9d2bcdc0bc121755f"
   integrity sha512-duVj6BpSpUpD/oM4MfhO98ozgkp3Gt9qIp3jGxwU2DFvl/3IRaEAvbLa8G60uS7C77457e/m5TMowjedeRxI1Q==
